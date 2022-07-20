@@ -48,6 +48,7 @@ hr {
   font-size: 56px;
   margin-bottom: 20px;
 }
+
 html,
 body {
   width: 100%;
@@ -186,34 +187,41 @@ About section
   border: 1px solid transparent;
   border-bottom-color: transparent;
 }
+
 /* ==========================================================================
 Team section
 ========================================================================== */
-.Team{
+.Team {
   text-align: center;
 }
-.team-wrapper{
+
+.team-wrapper {
   overflow: hidden;
   position: relative;
 }
-.team-wrapper .team-des h4{
+
+.team-wrapper .team-des h4 {
   font-size: 18px;
   margin-top: 40px;
 }
+
 .team-des p {
   color: #00c6d7;
   font-size: 14px;
   font-weight: bold;
-  letter-spacing: 2px; 
+  letter-spacing: 2px;
 }
+
 .social-icon li {
   list-style: none;
   display: inline-block;
   padding: 6px;
 }
-.team .social-icon li a{
+
+.team .social-icon li a {
   color: #fff;
 }
+
 .social-icon li a {
   box-shadow: 0px 2px 8px 0px rgb(50 50 50 / 9%);
   color: #808080;
@@ -225,8 +233,9 @@ Team section
   text-decoration: none;
   transition: all 0.4s ease-in-out;
 }
+
 .Team .team-des {
-  background-color: rgba(00,00,00,0.6);
+  background-color: rgba(00, 00, 00, 0.6);
   position: absolute;
   color: #ffffff;
   opacity: 0;
@@ -240,16 +249,20 @@ Team section
   bottom: 0;
   transition: all 0.4s ease-in-out;
 }
+
 .Team .team-des:hover {
   opacity: 1;
- }
- .Team .social-icon li a {
+}
+
+.Team .social-icon li a {
   color: #fff;
 }
 
 .Team .social-icon li a:hover {
-  color: #00c6d7;;
+  color: #00c6d7;
+  ;
 }
+
 /* ==========================================================================
 Portfolio section
 ========================================================================== */
@@ -265,41 +278,92 @@ Portfolio section
 /* ==========================================================================
 Pricing section
 ========================================================================== */
-.Pricing{
+.Pricing {
   text-align: center;
 }
-.Pricing .price{
+
+.Pricing .price {
   box-shadow: 0px 2px 8px 0px rgba(50, 50, 50, 0.20);
   padding-top: 40px;
   padding-bottom: 80px;
   margin-bottom: 32px;
 }
- .price .price-icon i.fa{
-   box-shadow: 0px 2px 8px 0px rgba(50, 50, 50, 0.20);  
-   font-size: 52px;
-   border-radius: 50%;
-   width: 120px;
-   height: 120px;
-   line-height: 120px;
-   text-align: center;
-   margin-bottom: 32px;
+
+.price .price-icon i.fa {
+  box-shadow: 0px 2px 8px 0px rgba(50, 50, 50, 0.20);
+  font-size: 52px;
+  border-radius: 50%;
+  width: 120px;
+  height: 120px;
+  line-height: 120px;
+  text-align: center;
+  margin-bottom: 32px;
 }
-.price-content{
-     margin-top: 20px;
-     margin-bottom: 10px;
+
+.price-content {
+  margin-top: 20px;
+  margin-bottom: 10px;
 }
-.price-content h3{
-     font-size: 16px;
-     text-transform: uppercase;
-     padding-bottom: 10px;
+
+.price-content h3 {
+  font-size: 16px;
+  text-transform: uppercase;
+  padding-bottom: 10px;
 }
-.price-content p.bold{
+
+.price-content p.bold {
   font-size: 52px;
   font-weight: bold;
 }
-.price-content span{
+
+.price-content span {
   font-size: 16px;
   font-weight: bold;
   letter-spacing: 2px;
   padding-left: 5px;
+}
+
+.Pricing .price-content ul {
+  padding: 0px;
+}
+
+.Pricing .price-content ul li {
+  display: block;
+  font-weight: 500;
+  padding: 12px 0px;
+}
+
+.price-content button {
+  border: none;
+  border-radius: 0;
+  color: #ffffff;
+  font-size: 16px;
+  font-weight: bold;
+  padding: 16px 60px;
+  transition: all 0.4s ease-in-out;
+  margin-top: 20px;
+  text-transform: uppercase
+}
+.price-content .btn-black{
+  background-color: #00C6D7;
+}
+.price-content .btn-yellow{
+  background-color: #ffa400;
+}
+.price-content .btn-green{
+  background-color: #009988;
+}
+.price-content button:hover{
+ background-color: #3B3B3B;
+}
+/* ==========================================================================
+Contact us section
+========================================================================== */
+.Contact{
+ background: #3B3B3B url("../image/contact-bg.jpg") no-repeat center center;
+ background-size: cover;
+ color: #ffffff;
+}
+.Contact .work-title h3{
+  text-transform: uppercase;
 }
