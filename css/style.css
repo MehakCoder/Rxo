@@ -153,7 +153,7 @@ About section
   font-size: 24px;
 }
 
-.About-us .link a {
+.tab-content a.link {
   color: #FF0;
   text-decoration: none;
 }
@@ -162,12 +162,6 @@ About section
   margin-top: 20px;
   border-bottom: 1px solid #606060;
 }
-
-.nav-tabs>li {
-  float: left;
-  margin-bottom: -1px;
-}
-
 .nav-tabs>li>a {
   display: block;
   text-decoration: none;
@@ -177,17 +171,18 @@ About section
   color: #ffffff;
   text-transform: uppercase;
 }
-
-.nav-tabs>li.active>a,
-.nav-tabs>li.active>a:hover,
-.nav-tabs>li.active>a:focus {
+.nav-tabs .nav-link{
+border: none;
+}
+.nav-tabs .nav-link.active,.nav-tabs .nav-link.active>a{
   color: #00c6d7;
   cursor: default;
   background-color: transparent;
-  border: 1px solid transparent;
   border-bottom-color: transparent;
 }
-
+.nav-link:hover{
+  color: #ffffff;
+}
 /* ==========================================================================
 Team section
 ========================================================================== */
@@ -266,7 +261,10 @@ Team section
 /* ==========================================================================
 Portfolio section
 ========================================================================== */
+.Portfolio-filters ul{
+ 
 
+}
 
 
 
