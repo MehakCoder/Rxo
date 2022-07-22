@@ -10,8 +10,6 @@
         rel="stylesheet">
     <link rel="stylesheet" href="css/bootstrap.css">
     <link rel="stylesheet" href="css/font-awesome.css">
-    <link rel="stylesheet" href="css/owl.carousel.css">
-    <link rel="stylesheet" href="css/owl.theme.default.css">
     <link rel="stylesheet" href="css/style.css">
 </head>
 
@@ -19,7 +17,7 @@
     <!-- navbar :start -->
     <section class="Menu">
         <div class="container">
-            <nav class="navbar navbar-expand-lg bg-light">
+            <nav class="navbar navbar-expand-lg bg-light fixed-top bg-light">
                 <div class="container-fluid">
                     <a class="navbar-brand" href="#">Digital Team</a>
                     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
@@ -52,6 +50,7 @@
             </nav>
         </div>
     </section>
+
     <!-- navbar : the end -->
     <!-- Home : start -->
     <section class="home">
@@ -66,7 +65,6 @@
                     </div>
                 </div>
             </div>
-        </div>
         </div>
     </section>
     <!-- Home : the end -->
@@ -472,39 +470,46 @@
                             fugiat
                             nulla
                             pariatur. Excepteu sunt in culpa qui officia deserunt mollit anim id.</p>
-                        <div class="col-md-6">
-                            <div class="contact-email">
-                                <h3><i class="fa fa-envelope-o">EMAIL</i></h3>
-                                <p>hello@company.com</p>
+
+
+                        <div class="row">
+                            <div class="col-md-6">
+                                <div class="contact-email">
+                                    <h3><i class="fa fa-envelope-o"></i>EMAIL</h3>
+                                    <p>hello@company.com</p>
+                                </div>
                             </div>
-                        </div>
-                        <div class="col-md-6">
-                            <div class="contact-email">
-                                <h3><i class="fa fa-mobile">PHONES</i></h3>
-                                <p>010-020-0340 | 090-080-0760</p>
+                            <div class="col-md-6">
+                                <div class="contact-email">
+                                    <h3><i class="fa fa-mobile"></i>PHONES</h3>
+                                    <p>010-020-0340 | 090-080-0760</p>
+                                </div>
                             </div>
                         </div>
                     </div>
 
                 </div>
-                <div class="col-md-6">
-                    <form action="">
-                        <div class="col-md-6">
-                            <input type="text" class="form-control" placeholder="Name" name="name">
-                        </div>
-                        <div class="col-md-6">
-                            <input type="email" class="form-control" placeholder="Email" name="email">
-                        </div>
-                        <div class="col-md-12">
-                            <textarea class="form-control" placeholder="Message" rows="7" name="message"></textarea>
-                        </div>
-                        <div class="col-md-offset-4 col-md-8 col-sm-offset-4 col-sm-8">
-                            <input type="submit" class="form-control" value="SEND MESSAGE">
+                <div class="col-md-6 col-sm-12">
+                    <form action="#" method="get" class="wow fadeInUp" data-wow-delay="0.6s">
+                        <div class="row">
+                            <div class="col-md-6 col-sm-6">
+                                <input type="text" class="form-control" placeholder="Name" name="name">
+                            </div>
+                            <div class="col-md-6 col-sm-6">
+                                <input type="email" class="form-control" placeholder="Email" name="email">
+                            </div>
+                            <div class="col-md-12 col-sm-12">
+                                <textarea class="form-control" placeholder="Message" rows="7" name="message"></textarea>
+                            </div>
+                            <div class="col-md-offset-4 col-md-8 col-sm-offset-4 col-sm-8">
+                                <input type="submit" class="form-control" value="SEND MESSAGE">
+                            </div>
                         </div>
                     </form>
                 </div>
             </div>
         </div>
+    </div>
     </div>
     <!-- Contact us : the end -->
     <!-- Footer section -->
@@ -530,7 +535,6 @@
     <!-- Footer section: the end -->
     <script src="js/jquery.js"></script>
     <script src="js/bootstrap.js"></script>
-    <script src="js/owl.carousel.js"></script>
     <script src="js/isotope-docs.min.js"></script>
     <script>
         $(".Portfolio-filters li").on('click', function () {
