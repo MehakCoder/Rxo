@@ -101,19 +101,47 @@ Header section
   position: absolute;
   width: 100%;
 }
-.navbar{
-  padding: 50px 0;
+.bgcolor.scrolled{
+ background: #4B4B4B;
 }
 .navbar-brand{
-  font-weight: bold;
-  font-size: 1.5rem;
-  text-transform: uppercase;
-}
-.nav-item{
+  color: #00c6d7;
   font-weight: 600;
-  text-transform: uppercase;
-  padding-left: 50px;
+  font-size: 24px;
+  padding: 15px 15px 15px 80px;
+  line-height: 20px;
 }
+.navbar-brand:hover{
+ text-decoration: none;
+ color: #00C6D7;
+}
+#navbarNav{
+  padding-left: 430px;
+}
+.nav-item a{
+  color: #ffffff;
+  font-size: 14px;
+  font-weight: 500;
+  text-transform: uppercase;
+  padding: 10px 15px;
+  margin-left: 10px;
+}
+.nav-link.active{
+  color: #00c6d7;
+}
+.nav-item a:hover{
+  background: transparent;
+   color: #eeeeee;
+   text-decoration: none;
+}
+.nav-item a:focus{
+  background-color: transparent;
+  color: #ffffff;
+  outline: none;
+}
+/* ==========================================================================
+Home section
+========================================================================== */
 .home{
   position: relative;
   background: url(../image/home-bg-slideshow1.jpg);
