@@ -74,12 +74,12 @@ img {
 }
 
 
-.work,
-.About,
-.Team,
-.Portfolio,
-.Pricing,
-.Contact {
+#work,
+#About,
+#Team,
+#Portfolio,
+#Pricing,
+#Contact {
   padding-top: 100px;
   padding-bottom: 100px;
 }
@@ -142,7 +142,7 @@ Header section
 /* ==========================================================================
 Home section
 ========================================================================== */
-.home{
+#home{
   position: relative;
   background: url(../image/home-bg-slideshow1.jpg);
   min-height: 100vh;
@@ -215,7 +215,7 @@ Home section
 work section
 ========================================================================== */
 
-.work {
+#work {
   text-align: center;
 }
 
@@ -230,7 +230,7 @@ work section
   margin: 0 auto;
 }
 
-.work .work-we {
+#work .work-we {
   padding: 28px;
   position: relative;
   transition: all 0.4s ease-in-out;
@@ -255,12 +255,12 @@ work section
 /* ==========================================================================
 About section
 ========================================================================== */
-.About {
+#About {
   background: #3B3B3B;
   color: #ffffff;
 }
 
-.About .Agency-image img {
+#About .Agency-image img {
   height: 400px;
 }
 
@@ -309,7 +309,7 @@ border: none;
 /* ==========================================================================
 Team section
 ========================================================================== */
-.Team {
+#Team {
   text-align: center;
 }
 
@@ -336,7 +336,7 @@ Team section
   padding: 6px;
 }
 
-.team .social-icon li a {
+#team .social-icon li a {
   color: #fff;
 }
 
@@ -352,7 +352,7 @@ Team section
   transition: all 0.4s ease-in-out;
 }
 
-.Team .team-des {
+#Team .team-des {
   background-color: rgba(00, 00, 00, 0.6);
   position: absolute;
   color: #ffffff;
@@ -368,15 +368,15 @@ Team section
   transition: all 0.4s ease-in-out;
 }
 
-.Team .team-des:hover {
+#Team .team-des:hover {
   opacity: 1;
 }
 
-.Team .social-icon li a {
+#Team .social-icon li a {
   color: #fff;
 }
 
-.Team .social-icon li a:hover {
+#Team .social-icon li a:hover {
   color: #00c6d7;
   ;
 }
@@ -384,7 +384,7 @@ Team section
 /* ==========================================================================
 Portfolio section
 ========================================================================== */
-.Portfolio{
+#Portfolio{
   background-color: #f6f6f6;
     text-align: center;
 }
@@ -424,11 +424,11 @@ padding: 8px 17px;
 /* ==========================================================================
 Pricing section
 ========================================================================== */
-.Pricing {
+#Pricing {
   text-align: center;
 }
 
-.Pricing .price {
+#Pricing .price {
   box-shadow: 0px 2px 8px 0px rgba(50, 50, 50, 0.20);
   padding-top: 40px;
   padding-bottom: 80px;
@@ -469,11 +469,11 @@ Pricing section
   padding-left: 5px;
 }
 
-.Pricing .price-content ul {
+#Pricing .price-content ul {
   padding: 0px;
 }
 
-.Pricing .price-content ul li {
+#Pricing .price-content ul li {
   display: block;
   font-weight: 500;
   padding: 12px 0px;
@@ -505,12 +505,12 @@ Pricing section
 /* ==========================================================================
 Contact us section
 ========================================================================== */
-.Contact{
+#Contact{
  background: #3B3B3B url("../image/contact-bg.jpg") no-repeat center center;
  background-size: cover;
  color: #ffffff;
 }
-.Contact .work-title h3{
+#Contact .work-title h3{
   text-transform: uppercase;
 }
 .contact-info h2{
@@ -528,7 +528,31 @@ Contact us section
   padding-right: 10px;
   padding-top: 10px;
 }
-
+#Contact form {
+  padding-top: 40px;
+}
+#Contact .form-control {
+  border: 2px solid #ffffff;
+  border-radius: 0;
+  box-shadow: none;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  transition: all 0.4s ease-in-out;
+}
+#Contact input {
+  height: 40px;
+}
+#Contact input[type="submit"] {
+  background: #00c6d7;
+  border: 3px solid #00c6d7;
+  letter-spacing: 1px;
+  margin-top: 18px;
+  height: 50px;
+  color: #ffffff;
+}
+#Contact input[type="submit"]:hover {
+  color: #000000;
+}
 
 
 /* ==========================================================================
@@ -577,31 +601,7 @@ footer .social-icon:after{
 .social-icon li a:hover {
   color: #00c6d7;
 }
-.Contact form {
-  padding-top: 60px;
-}
-.Contact .form-control {
-  border: 2px solid #ffffff;
-  border-radius: 0;
-  box-shadow: none;
-  margin-top: 10px;
-  margin-bottom: 10px;
-  transition: all 0.4s ease-in-out;
-}
-.Contact input {
-  height: 40px;
-}
-.Contact input[type="submit"] {
-  background: #00c6d7;
-  border: 3px solid #00c6d7;
-  letter-spacing: 1px;
-  margin-top: 18px;
-  height: 50px;
-  color: #ffffff;
-}
-.Contact input[type="submit"]:hover {
-  color: #000000;
-}
+
 
 
 
